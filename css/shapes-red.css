@@ -535,7 +535,7 @@ a.btn-theme:focus{
 #services .item [class*=fa] {
     color:#d4d4d4;
     font-size:48px;
-    line-height:160px;
+    line-height:125px;
     -webkit-transition: -webkit-transform .4s ease-out,color .4s ease-out;
     transition: transform .4s ease-out,color .4s ease-out;
 
