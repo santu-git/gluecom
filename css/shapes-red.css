@@ -88,8 +88,8 @@ a:focus,
     display:block;
 	width:100%;
     position:absolute;
-    top:50%;
-	margin:-35px auto 0;
+    top:30%;
+	margin:-5px auto 0;
     font-size:64px;
 	line-height:70px;
     font-weight:400;
@@ -107,8 +107,8 @@ a:focus,
     position:absolute;
     top:50%;
     left:50%;
-    margin-top:-64px;
-    margin-left:-64px;
+    margin-top: -40px;
+    margin-left:-40px;
     width:128px;
     height:128px;
     background:url('../assets/page-loader-red.gif') no-repeat;
@@ -1888,6 +1888,11 @@ a.btn-theme:focus{
 
 @media (max-width: 767px) {
 
+#page-loader .page-loader-gif {
+margin-top: 0px; 
+}
+
+
 #main-nav .navbar-brand{
     font-size:24px;
 }
@@ -1932,7 +1937,7 @@ a.btn-theme:focus{
 }
 
 .jumbotron .second-line p{
-    font-size:42px;
+    font-size:28px;
     line-height:52px;
 }
 
@@ -2008,6 +2013,10 @@ a.btn-theme:focus{
 
 @media (max-width: 479px) {
 
+#page-loader .page-loader-gif {
+    margin-top: 0px; 
+}
+
 #main-nav .navbar-brand span{
     display:none;
 }
@@ -2022,7 +2031,7 @@ a.btn-theme:focus{
 }
 
 .jumbotron .second-line p{
-    font-size:28px;
+    font-size:20px;
     line-height:36px;
 }
 
