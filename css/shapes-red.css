@@ -105,10 +105,10 @@ a:focus,
 #page-loader .page-loader-gif {
     display:block;
     position:absolute;
-    top:50%;
+    top:32%;
     left:50%;
     margin-top: -40px;
-    margin-left:-40px;
+    margin-left:-38px;
     width:128px;
     height:128px;
     background:url('../assets/page-loader-red.gif') no-repeat;
@@ -1886,10 +1886,10 @@ a.btn-theme:focus{
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 599px) and (min-width: 767px){
 
 #page-loader .page-loader-gif {
-margin-top: 0px; 
+margin-top: -7%; 
 }
 
 
@@ -2014,7 +2014,7 @@ margin-top: 0px;
 @media (max-width: 479px) {
 
 #page-loader .page-loader-gif {
-    margin-top: 0px; 
+    margin-top: -11%; 
 }
 
 #main-nav .navbar-brand span{
