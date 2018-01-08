@@ -362,3 +362,16 @@ hr{
 	.fa-anchor, .fa-coffee {
 	    font-size: 200px;
 	}
+
+
+.fea-img {
+    font-size: 30px;
+    color: #F05557;
+    margin-top: 10px;
+}
+
+.paddingLeft {
+	padding-left: 45px;
+	margin-bottom: 40px;
+
+}
