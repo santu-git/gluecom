@@ -371,7 +371,10 @@ hr{
 }
 
 .paddingLeft {
-	padding-left: 45px;
+	
 	margin-bottom: 40px;
+}
 
+.lst-none {
+list-style-type: none;
 }
