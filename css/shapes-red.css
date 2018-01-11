@@ -492,6 +492,7 @@ a.btn-theme:focus{
     letter-spacing:0.02em;
     word-spacing:0.02em;
     text-transform:uppercase;
+    text-shadow: 1px 2px 3px #fff;
 }
 
 .jumbotron .home-slider .slides li {
@@ -1896,7 +1897,7 @@ a.btn-theme:focus{
 
 }
 
-@media (max-width: 599px) and (min-width: 767px){
+@media (min-width: 480px) and (max-width: 767px){
 
 #page-loader .page-loader-gif {
 margin-top: -7%; 
@@ -1999,7 +2000,7 @@ margin-top: -7%;
 }
 
 .map{
-    left:0;
+    left:10%;
 }
 
 .map img{
@@ -2018,6 +2019,7 @@ margin-top: -7%;
 #twitter-slider .flex-direction-nav{
     display:none !important;
 }
+
 
 }
 
@@ -2081,6 +2083,10 @@ p {
     font-size:18px;
     line-height:24px;
     padding-top:14px;
+}
+
+.map{
+    left: 10%;
 }
 
 }
