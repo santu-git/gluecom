@@ -535,8 +535,8 @@ a.btn-theme:focus{
 }
 
 #services .item .icon img{
-    height: 120px;
-    width: 75px;
+    height: 130px;
+    width: 60px;
     padding-top: 20px;
     transition: transform .4s ease-out,color .4s ease-out;
 
