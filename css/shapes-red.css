@@ -324,6 +324,7 @@ a.btn-theme:focus{
 #main-nav.scrolled{
     background:#fff;
     border-bottom:1px solid #eee;
+    min-height: 80px;
 }
 
 #main-nav.scrolled .navbar-toggle{
@@ -1903,6 +1904,10 @@ a.btn-theme:focus{
 margin-top: -7%; 
 }
 
+.navbar-brand img {
+    width:85%; 
+    height: 50px;
+}
 
 #main-nav .navbar-brand{
     font-size:24px;
@@ -2031,6 +2036,11 @@ margin-top: -7%;
 
 #main-nav .navbar-brand span{
     display:none;
+}
+
+.navbar-brand img {
+    width:80%; 
+    height: 50px;
 }
 
 .jumbotron .header-logo{
