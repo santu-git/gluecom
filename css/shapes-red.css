@@ -795,7 +795,6 @@ a.btn-theme:focus{
     margin:0;
     margin-bottom:20px;
     width:350px;
-    border:1px solid #e5e5e5;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);

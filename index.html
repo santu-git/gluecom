@@ -129,8 +129,8 @@
 		<!-- ==============================================
 		SERVICES
 		=============================================== -->
-		<section id="services" class="padding-bottom bg-light">
-		
+		<section id="services" class="">
+		<div class="bg-light">
 			<div class="container">
 					
 				<div class="section-header scrollimation fade-up">
@@ -143,51 +143,267 @@
 					We like to create & instill the brand stories to the right consumers.</p>
 					
 				</div><!--End section-header -->
+			</div><!--End container -->
+		</div>
+
+			<!--==== Project Preview Panel (DO NOT REMOVE)====-->
 			
-				<div class="row">
-					<div class="col-sm-4 item text-center scrollimation scale-in">
-					
-						<div class="icon"><!-- <i class="fa fa-binoculars"></i> --><img src="assets/market-research.svg" class="img-responsive img-center"></img></div>
-						<h3>Market Research & Analytics</h3>
-						<!-- <h4>HTML5 Power</h4>
-						<h4>CSS3 Awesomeness</h4>
-						<h4>jQuery Magic</h4> -->
+			<div id="preview-scroll"></div>
+			<div id="preview-loader"></div>
+			
+			<div id="project-preview-wrapper">
+			<div id="project-preview">
+				
+				<div class="container">
+				
+					<div class="preview-header">
+						<h1 class="preview-title"></h1><span class="close-preview"><i class="fa fa-times"></i></span>
 					</div>
+				
+					<div class="row">
 					
-					<div class="col-sm-4 item text-center scrollimation scale-in d1">
-					
-						<div class="icon"><!-- <i class="fa fa-cubes"></i> --> <img src="assets/creative.svg" class="img-responsive img-center"></img></div>
-						<h3>Creative Solutions</h3>
-					</div>
-					
-					<div class="col-sm-4 item text-center scrollimation scale-in d2">
-					
-						<div class="icon"><!-- <i class="fa fa-laptop"></i> --><img src="assets/digital-media.svg" class="img-responsive img-center"></img></div>
-						<h3>Digital Media Solutions</h3>
-					</div>
-				</div><!--End row -->
-
-				<div class="row">
-					<div class="col-sm-4 item text-center scrollimation scale-in">
+						<div id="preview-media" class="col-md-8"></div>
 						
-						<div class="icon"><!-- <i class="fa fa-tint"></i> --><img src="assets/OOH.svg" class="img-responsive img-center"></img></div>
-						<h3>OOH Media Solutions</h3>
+						<div id="preview-details" class="col-md-4">
+							<h2>Project Details</h2>
+							<ul></ul>
+						</div>
+						
 					</div>
 					
-					<div class="col-sm-4 item text-center scrollimation scale-in d1">
+					<div id="preview-content" class="row"></div>
+				
+				</div><!--End container -->
+				
+			</div><!--End #project-preview panel-->
+			</div><!--End #project-preview-wrapper-->
+			
+			<div class="bg-light"><!--Start Projects Band-->
+			
+				<div class="container masonry-wrapper">
+				
+					<div id="projects-container" class="">
 					
-						<div class="icon"><!-- <i class="fa fa-cogs"></i> --><img src="assets/tech-innovation.svg" class="img-responsive img-center"></img></div>
-						<h3>Technology Led Innovations</h3>
-					</div>
-					
-					<div class="col-sm-4 item text-center scrollimation scale-in d2">
-					
-						<div class="icon"><!-- <i class="fa fa-eye"></i> --><img src="assets/visual-media.svg" class="img-responsive img-center"></img></div>
-						<h3>Visual Content Creation</h3>
-					</div>
-				</div>
+						<!-- ==============================================
+						SINGLE PROJECT ITEM
+						=============================================== -->	
+						<article class="col-sm-4 project-item web-design image">
+							<a href="#">
+								<div class="item text-center scrollimation scale-in">
+									<div class="icon"><img src="assets/market-research.svg" class="img-responsive img-center"></img></div>
+									<h3>Market Research & Analytics</h3>
+								</div>
+							</a>
+							<!--==== Project Preview ====-->
+							<div class="sr-only">
+								<div class="project-media" data-images="assets/projects/project-slide-placeholder.png"></div>
+								<div class="project-attributes">
+									<div class="newline"><span>Date : </span>November 2013</div>
+									<div class="newline"><span>Client : </span>Company SA</div>
+									<div class="newline"><span>Categories : </span>Web Design</div>
+									<div class="newline"><span>Website : </span><a href="#link">www.example.com</a></div>
+								</div>
+							
+								<div class="project-description">
+								
+									<div class="col-md-4">
+										<h2>The Challenge</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+									<div class="col-md-4">
+										<h2>The Solution</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+									<div class="col-md-4">
+										<h2>The Result</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+								</div>
+							</div><!-- End Project Preview -->
+							
+						</article>
+						<!-- ==============================================
+						END PROJECT ITEM
+						=============================================== -->						
+						
+						<article class="col-sm-4 project-item web-design apps gallery">
+							<a href="#">
+								<div class="item text-center scrollimation scale-in d1">
+									<div class="icon"> <img src="assets/creative.svg" class="img-responsive img-center"></img></div>
+									<h3>Creative Solutions</h3>
+								</div>
+							</a>
+							<!--==== Project Preview ====-->
+							<div class="sr-only">
+								<div class="project-media" data-images="assets/projects/project-slide-placeholder.png,assets/projects/project-slide-placeholder.png"></div>
+								<div class="project-attributes">
+									<div class="newline"><span>Date : </span>July 2013</div>
+									<div class="newline"><span>Client : </span>Microsoft Inc.</div>
+									<div class="newline"><span>Categories : </span>Web Design, Apps</div>
+									<div class="newline"><span>Website : </span><a href="#link">www.example.com</a></div>
+								</div>
+							
+								<div class="project-description">
+								
+									<div class="col-md-6">
+										<h2>The Challenge</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+									<div class="col-md-6">
+										<h2>The Solution</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+								</div>
+							</div><!-- End Project Preview -->
+							
+						</article>
+						
+						<article class="col-sm-4 project-item ui-kits apps gallery">
+							<a href="#">
+								<div class="item text-center scrollimation scale-in d2">
+									<div class="icon"><img src="assets/digital-media.svg" class="img-responsive img-center"></img></div>
+									<h3>Digital Media Solutions</h3>
+								</div>
+							</a>
+							<!--==== Project Preview ====-->
+							<div class="sr-only">
+								<div class="project-media" data-images="assets/projects/project-slide-placeholder.png,assets/projects/project-slide-placeholder.png"></div>
+								<div class="project-attributes">
+									<div class="newline"><span>Date : </span>May 2013</div>
+									<div class="newline"><span>Client : </span>Google Inc.</div>
+									<div class="newline"><span>Categories : </span>Apps, UI Kits</div>
+									<div class="newline"><span>Website : </span><a href="#link">www.example.com</a></div>
+								</div>
+							
+								<div class="project-description">
+								
+									<div class="col-md-12">
+										<h2>The Challenge</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+								</div>
+							</div><!-- End Project Preview -->
+							
+						</article>
+						
+						<article class="col-sm-4 project-item web-design ui-kits gallery">
+							<a href="#">
+								<div class="item text-center scrollimation scale-in d1">
+									<div class="icon"><img src="assets/tech-innovation.svg" class="img-responsive img-center"></img></div>
+									<h3>Technology Led Innovations</h3>
+								</div>
+							</a>
+							<!--==== Project Preview ====-->
+							<div class="sr-only">
+								<div class="project-media" data-images="assets/projects/project-slide-placeholder.png,assets/projects/project-slide-placeholder.png"></div>
+								<div class="project-attributes">
+									<div class="newline"><span>Date : </span>November 2012</div>
+									<div class="newline"><span>Client : </span>Company SA</div>
+									<div class="newline"><span>Categories : </span>Web Design, UI Kits</div>
+									<div class="newline"><span>Website : </span><a href="#link">www.example.com</a></div>
+								</div>
+							
+								<div class="project-description">
+								
+									<div class="col-md-4">
+										<h2>The Challenge</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+									<div class="col-md-4">
+										<h2>The Solution</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+									<div class="col-md-4">
+										<h2>The Result</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+								</div>
+							</div><!-- End Project Preview -->
+							
+						</article>
+						
+						<article class="col-sm-4 project-item apps video">
+							<a href="#">
+								<div class="item text-center scrollimation scale-in">
+									<div class="icon"><img src="assets/OOH.svg" class="img-responsive img-center"></img></div>
+									<h3>OOH Media Solutions</h3>
+								</div>
+							</a>
+							<!--==== Project Preview ====-->
+							<div class="sr-only">
+								<div class="project-media" data-video='<iframe src="http://player.vimeo.com/video/81183852" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'></div>
+								<div class="project-attributes">
+									<div class="newline"><span>Date : </span>June 2012</div>
+									<div class="newline"><span>Client : </span>Microsoft Inc.</div>
+									<div class="newline"><span>Categories : </span>Apps</div>
+									<div class="newline"><span>Website : </span><a href="#link">www.example.com</a></div>
+								</div>
+							
+								<div class="project-description">
+								
+									<div class="col-md-6">
+										<h2>The Challenge</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+									<div class="col-md-6">
+										<h2>The Solution</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+								</div>
+							</div><!-- End Project Preview -->
+							
+						</article>
+						
+						<article class="col-sm-4 project-item web-design apps video">
+							<a href="#">
+								<div class="item text-center scrollimation scale-in d2">
+									<div class="icon"><img src="assets/visual-media.svg" class="img-responsive img-center"></img></div>
+									<h3>Visual Content Creation</h3>
+								</div>
+							</a>
+							<!--==== Project Preview ====-->
+							<div class="sr-only">
+								<div class="project-media" data-video='<iframe src="http://player.vimeo.com/video/58241892" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'></div>
+								<div class="project-attributes">
+									<div class="newline"><span>Date : </span>April 2012</div>
+									<div class="newline"><span>Client : </span>Google Inc.</div>
+									<div class="newline"><span>Categories : </span>Web Design, Apps</div>
+									<div class="newline"><span>Website : </span><a href="#link">www.example.com</a></div>
+								</div>
+							
+								<div class="project-description">
+								
+									<div class="col-md-12">
+										<h2>The Challenge</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien risus, blandit at fringilla ac, varius sed dolor. Donec augue lacus, vulputate sed consectetur facilisis, interdum pharetra ligula. Nulla suscipit erat nibh, ut porttitor nisl dapibus eu.</p>
+									</div>
+									
+								</div>
+							</div><!-- End Project Preview -->
+							
+						</article>
 
-				<div class="col-md-12 scrollimation scale-in">
+					</div><!-- End #projects-container --> 
+					
+				</div><!-- End container --> 
+
+			</div><!--End Projects Band-->
+
+			<div class="padding-bottom bg-light">
+				<div class="col-md-12 scrollimation scale-in ">
 	            	<div class="heading paddingLeft scrollimation fade-in ">
 		                <h2 class="text-center">we help you in connecting conventional media reach & future digital presence</h2>
 		                <ul class="lst-none text-center">
@@ -195,19 +411,30 @@
 		                	<li>Deliver stories and plan effective interactions with your consumers and create innovations</li>
 		                	<li>Implement solution for your brand through OOH, activations & technologies</li>
 		                </ul>
-	                </div>
-	               
-		                	
-              	</div>
+	                </div>  	
+	          	</div>
 						
 				<br/><br/>
 				<!-- <p class="lead text-center scrollimation fade-in">Want to talk about a custom solution? Contact us to discuss about it.</p> -->
 				<p class="text-center scrollimation scale-in"><a class="btn btn-theme btn-lg scrollto" href="#contact">Contact Us</a></p>
 				<p class="lead text-center scrollimation fade-in">Want to talk about a custom solution? Contact us to discuss about it.</p>
+			</div>
 				
-			</div><!--End container -->
+			
 			
 		</section><!--End services section-->
+
+				<!-- ==============================================
+		PORTFOLIO
+		=============================================== -->		
+		<section  id="services">
+
+			
+			
+			
+			
+		</section><!-- End portfolio section -->
+
 		
 		<!-- ==============================================
 		CALL TO ACTION
@@ -230,10 +457,10 @@
 		</section><!--End Call to Action -->
 
 		<!-- ==============================================
-		PORTFOLIO
+		GLUECOM USP
 		=============================================== -->		
 		<section  id="portfolio">
-		<!--Start portfolio header -->
+		<!--Start GLUECOM USP header -->
 			<div class="bg-light">
 			
 				<div class="container">
