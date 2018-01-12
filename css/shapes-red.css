@@ -356,7 +356,7 @@ a.btn-theme:focus{
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
     padding:0px 10px;
-    font-size:16px;
+    font-size:18px;
     line-height:54px;
     font-weight:100;
     background:transparent;
@@ -488,13 +488,13 @@ a.btn-theme:focus{
 .jumbotron .second-line p{
     margin:0;
     padding:10px;
-    font-size:30px;
+    font-size:32px;
     line-height:55px;
     font-weight:300;
     letter-spacing:0.02em;
     word-spacing:0.02em;
     text-transform:none;
-    text-shadow: 1px 2px 3px #fff;
+    /*text-shadow: 1px 2px 3px #fff;*/
 }
 
 .jumbotron .home-slider .slides li {
