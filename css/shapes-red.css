@@ -477,7 +477,7 @@ a.btn-theme:focus{
     display:inline-block;
     margin:0;
     padding:0;
-    font-size:48px;
+    font-size:68px;
     font-weight:400;
     line-height:48px;
     letter-spacing:0.02em;
@@ -488,12 +488,12 @@ a.btn-theme:focus{
 .jumbotron .second-line p{
     margin:0;
     padding:10px;
-    font-size:45px;
+    font-size:30px;
     line-height:55px;
     font-weight:300;
     letter-spacing:0.02em;
     word-spacing:0.02em;
-    text-transform:uppercase;
+    text-transform:none;
     text-shadow: 1px 2px 3px #fff;
 }
 
@@ -520,7 +520,7 @@ a.btn-theme:focus{
 
 #services .item h3 {
     text-transform:uppercase;
-    font-size:21px;
+    font-size:20px;
     letter-spacing:0.02em;
     margin-bottom:20px;
     font-weight:300;
@@ -1880,7 +1880,7 @@ a.btn-theme:focus{
 
 .jumbotron .first-line p{
     padding:10px;
-    font-size:42px;
+    font-size:58px;
 }
 
 .jumbotron .second-line{
@@ -1890,7 +1890,7 @@ a.btn-theme:focus{
 
 .jumbotron .second-line p{
     padding:10px;
-    font-size:30px;
+    font-size:28px;
 }
 
 .cta-message {
@@ -1902,7 +1902,7 @@ a.btn-theme:focus{
 @media (min-width: 480px) and (max-width: 767px){
 
 #page-loader .page-loader-gif {
-margin-top: -7%; 
+margin-top: -6%; 
 }
 
 .navbar-brand img {
@@ -1949,12 +1949,12 @@ margin-top: -7%;
 }
 
 .jumbotron .first-line p{
-    font-size:32px;
+    font-size:42px;
     line-height:38px;
 }
 
 .jumbotron .second-line p{
-    font-size:28px;
+    font-size:20px;
     line-height:52px;
 }
 
@@ -2032,7 +2032,7 @@ margin-top: -7%;
 @media (max-width: 479px) {
 
 #page-loader .page-loader-gif {
-    margin-top: -11%; 
+    margin-top: -9%; 
 }
 
 #main-nav .navbar-brand span{
@@ -2049,12 +2049,12 @@ margin-top: -7%;
 }
 
 .jumbotron .first-line p{
-    font-size:24px;
+    font-size:38px;
     line-height:28px;
 }
 
 .jumbotron .second-line p{
-    font-size:20px;
+    font-size:18px;
     line-height:36px;
 }
 
