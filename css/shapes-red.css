@@ -769,6 +769,7 @@ a.btn-theme:focus{
 #filter-works ul li.active a [class*=fa],
 #filter-works ul li:hover a [class*=fa]{
     color:#F05557;
+    box-shadow: 0 0 0 1px;
 }
 
 .filter-results {
@@ -1937,6 +1938,7 @@ margin-top: -6%;
 #main-nav .nav a:hover{
     line-height:42px;
     text-align:center;
+    border: 1px solid #eee;
 }
 
 #main-nav .nav a:before {
@@ -2044,18 +2046,23 @@ margin-top: -6%;
     height: 50px;
 }
 
+#main-nav .nav a, #main-nav .nav a:active, #main-nav .nav a:hover {
+    text-align: center;
+    border: 1px solid #eee;
+}
+
 .jumbotron .header-logo{
     width:50px;
 }
 
 .jumbotron .first-line p{
-    font-size:38px;
-    line-height:28px;
+    font-size:28px;
+    line-height:30px;
 }
 
 .jumbotron .second-line p{
-    font-size:18px;
-    line-height:36px;
+    font-size:12px;
+    line-height:18px;
 }
 
 h1.section-title{
