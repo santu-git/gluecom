@@ -1868,9 +1868,9 @@ a.btn-theme:focus{
 @media (max-width: 1199px) {
 
     #about .member-details{
-        font-size: 16px;
+        font-size: 22px;
         letter-spacing: .04pc;
-        padding: 27px;
+        padding: 30px;
     }
 
 }
