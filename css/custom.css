@@ -22,8 +22,12 @@
 list-style-type: none;
 }
 
-.letter-spaceing{
+/*.letter-spaceing{
 	letter-spacing: .1pc;
+}*/
+
+.word-red{
+	color: #F05557;
 }
 
 

@@ -671,6 +671,7 @@ a.btn-theme:focus{
     background:#fafafa;
     border:1px solid #f5f5f5;
     border-radius:3px;
+    font-size: 31px;
 }
 
 #about .member-details p {
