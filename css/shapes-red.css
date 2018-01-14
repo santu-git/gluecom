@@ -574,7 +574,7 @@ a.btn-theme:focus{
     padding:0 20px;
     font-size:22px;
     line-height:32px;
-    text-shadow: 1px 2px 6px #fff;
+    
 }
 
 .cta .cta-button{
@@ -1867,6 +1867,12 @@ a.btn-theme:focus{
 
 @media (max-width: 1199px) {
 
+    #about .member-details{
+        font-size: 16px;
+        letter-spacing: .04pc;
+        padding: 27px;
+    }
+
 }
 
 @media (max-width: 991px) {
@@ -1898,6 +1904,13 @@ a.btn-theme:focus{
 .cta-message {
     text-align:center;
 }
+
+#about .member-details{
+        font-size: 16px;
+        letter-spacing: .04pc;
+        padding: 27px;
+    }
+
 
 }
 
@@ -1981,6 +1994,12 @@ margin-top: -6%;
 #about .member{
     margin-bottom:70px;
 }
+
+#about .member-details{
+        font-size: 22px;
+        letter-spacing: .04pc;
+        padding: 27px;
+    }
 
 .member .shadow {
     display:none;
