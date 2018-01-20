@@ -84,7 +84,7 @@ a.btn-theme:focus{color:#fff;}
 .jumbotron .message-box{margin:20px auto 0;background:transparent;padding:20px 0;}
 .jumbotron .first-line{text-align:center;}
 .jumbotron .second-line{text-align:center;overflow:hidden;border:none;box-shadow:none;background:transparent;margin:0;padding:0;}
-.jumbotron .first-line p{display:inline-block;margin:0;padding:0;font-size:68px;font-weight:400;line-height:48px;letter-spacing:0.02em;word-spacing:0.05em;text-transform:uppercase;}
+.jumbotron .first-line p{display:inline-block;margin:0;padding:0;font-size:75px;font-weight:500;line-height:48px;letter-spacing:0.02em;word-spacing:0.05em;text-transform:uppercase;}
 .jumbotron .second-line p{margin:0;padding:10px;font-size:32px;line-height:55px;font-weight:300;letter-spacing:0.02em;word-spacing:0.02em;text-transform:none;}
 .jumbotron .home-slider .slides li{opacity:0;-webkit-transition:opacity 0.4s ease-out;transition:opacity 0.4s ease-out;}
 .no-csstransitions .jumbotron .home-slider .slides li{opacity:1;}
@@ -210,7 +210,7 @@ a.btn-theme:focus{color:#fff;}
 #testimonials a:hover,
 #testimonials a:active,
 #testimonials a:focus{text-decoration:none;}
-#testimonials .testimonial{font-size:22px;line-height:32px;font-weight:300;text-align:center;word-spacing:5px;margin-bottom:40px;}
+#testimonials .testimonial{font-size:30px;line-height:32px;font-weight:300;text-align:center;word-spacing:5px;margin-bottom:40px;}
 #testimonials .tweet a:hover{text-decoration:underline;}
 #testimonials .client-img{width:auto;margin:0 auto;}
 #testimonials .client{font-size:16px;font-weight:300;margin-bottom:15px;text-align:center;}
